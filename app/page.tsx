@@ -81,7 +81,7 @@ export default function Home() {
               placeholder="Search..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="hidden md:block w-64 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-white"
+              className="hidden md:block w-64 px-4 py-2 placeholder-white rounded-lg focus:outline-none focus:ring-2 focus:ring-white"
             />
           </div>
           
@@ -91,7 +91,7 @@ export default function Home() {
               placeholder="Search news..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="md:hidden w-full px-4 py-2 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-white"
+              className="md:hidden w-full px-4 py-2 placeholder-white rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-white"
             />
             
             <div className="flex flex-wrap gap-2">
